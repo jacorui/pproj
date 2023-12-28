@@ -1,0 +1,370 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+         Lattice Mapping Report File for Design Module 'top_lserial'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO3L -p LCMXO3L-6900C -t CABGA256 -s 5 -oc Commercial
+     lSerial_lSerial.ngd -o lSerial_lSerial_map.ncd -pr lSerial_lSerial.prf -mp
+     lSerial_lSerial.mrp -lpf C:/pproj/lSerial/lSerial/lSerial_lSerial.lpf -lpf
+     C:/pproj/lSerial/lSerial.lpf -c 0 -gui -msgset C:/pproj/lSerial/promote.xml
+     
+Target Vendor:  LATTICE
+Target Device:  LCMXO3L-6900CCABGA256
+Target Performance:   5
+Mapper:  xo3c00a,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  12/28/23  19:46:40
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    304 out of  7485 (4%)
+      PFU registers:          304 out of  6864 (4%)
+      PIO registers:            0 out of   621 (0%)
+   Number of SLICEs:       306 out of  3432 (9%)
+      SLICEs as Logic/ROM:    306 out of  3432 (9%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         14 out of  3432 (0%)
+   Number of LUT4s:        603 out of  6864 (9%)
+      Number used as logic LUTs:        575
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       28
+      Number used as shift registers:     0
+   Number of PIO sites used: 16 + 4(JTAG) out of 207 (10%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        1 out of 1 (100%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net sysclk_c: 198 loads, 198 rising, 0 falling (Driver: PIO sysclk )
+   Number of Clock Enables:  44
+     Net debCom_inst/recv: 3 loads, 3 LSLICEs
+
+     Net debCom_inst/sysclk_c_enable_124: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_131: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_92: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_108: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_145: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_128: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_100: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_84: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_225: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_88: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_104: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_18: 3 loads, 3 LSLICEs
+     Net debCom_inst/sysclk_c_enable_17: 3 loads, 3 LSLICEs
+     Net debCom_inst/sysclk_c_enable_96: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_138: 5 loads, 5 LSLICEs
+     Net debCom_inst/sysclk_c_enable_10: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_8: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_72: 21 loads, 21 LSLICEs
+     Net debCom_inst/sysclk_c_enable_73: 14 loads, 14 LSLICEs
+     Net debCom_inst/sysclk_c_enable_58: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_65: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_111: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_228: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_146: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_234: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_238: 25 loads, 25 LSLICEs
+     Net debCom_inst/sysclk_c_enable_237: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/r_SM_Main_2: 6 loads, 6 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_118: 4 loads, 4 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_223: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_169: 2 loads, 2 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_189: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_233: 5 loads, 5 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_179: 2 loads, 2 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_173: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_182: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_176: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_174: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_181: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_172: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_170: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_171: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_175: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net debCom_inst/n14254 merged into GSR:
+     214
+   Number of LSRs:  6
+     Net debCom_inst/URT/UART_TX_INST/r_SM_Main_2: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/n13442: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/n9636: 5 loads, 5 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/r_SM_Main_2: 2 loads, 2 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/n9629: 5 loads, 5 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/n13470: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net debCom_inst/cmd_1: 126 loads
+     Net debCom_inst/lns: 84 loads
+
+     Net debCom_inst/cmd_0: 62 loads
+     Net debCom_inst/n15: 62 loads
+     Net debCom_inst/recBuf_0_0: 54 loads
+     Net debCom_inst/stm_0: 49 loads
+     Net debCom_inst/recBuf_0_2: 42 loads
+     Net debCom_inst/n2883: 41 loads
+     Net debCom_inst/recCte_2: 40 loads
+     Net debCom_inst/n2789: 34 loads
+
+
+
+
+   Number of warnings:  15
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: input pad net 'pb[1]' has no legal load.
+WARNING - map: input pad net 'pb[0]' has no legal load.
+WARNING - map: input pad net 'master_i2c_int' has no legal load.
+WARNING - map: input pad net 'master_i2c_sda' has no legal load.
+WARNING - map: input pad net 'spi_clk' has no legal load.
+WARNING - map: input pad net 'spi_miso' has no legal load.
+WARNING - map: input pad net 'spi_mosi' has no legal load.
+WARNING - map: Using local reset signal 'debCom_inst/n14254' to infer global GSR
+     net.
+WARNING - map: IO buffer missing for top level port pb[1:0](1)...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port pb[1:0](0)...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port master_i2c_int...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port master_i2c_sda...logic will
+     be discarded.
+WARNING - map: IO buffer missing for top level port spi_clk...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port spi_miso...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port spi_mosi...logic will be
+     discarded.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| led[4]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb_uart_rx         | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[0]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+| sw[1]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[2]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[3]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sysclk              | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb_uart_tx         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| master_i2c_scl      | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[0]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[1]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[2]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[3]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[5]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[6]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[7]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block i2 undriven or does not drive anything - clipped.
+Signal debCom_inst/URT/UART_TX_INST/sysclk_c_enable_180 was merged into signal
+     debCom_inst/URT/UART_TX_INST/r_SM_Main_2
+Signal n14538 undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal debCom_inst/URT/UART_RX_INST/r_Clock_Count_3545_add_4_9/S1 undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/URT/UART_RX_INST/r_Clock_Count_3545_add_4_9/CO undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/URT/UART_RX_INST/r_Clock_Count_3545_add_4_1/S0 undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/URT/UART_RX_INST/r_Clock_Count_3545_add_4_1/CI undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/URT/UART_TX_INST/r_Clock_Count_3543_add_4_1/S0 undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/URT/UART_TX_INST/r_Clock_Count_3543_add_4_1/CI undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/URT/UART_TX_INST/r_Clock_Count_3543_add_4_9/S1 undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/URT/UART_TX_INST/r_Clock_Count_3543_add_4_9/CO undriven or
+     does not drive anything - clipped.
+Signal debCom_inst/add_2697_2/S0 undriven or does not drive anything - clipped.
+Signal debCom_inst/add_2697_2/CI undriven or does not drive anything - clipped.
+Signal debCom_inst/add_2697_8/CO undriven or does not drive anything - clipped.
+Block debCom_inst/URT/UART_TX_INST/i1_1_lut_rep_203 was optimized away.
+Block m0_lut was optimized away.
+
+
+     
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The local reset signal 'debCom_inst/n14254' of the design has been inferred
+        as Global Set Reset (GSR). The reset signal used for GSR control is
+        'debCom_inst/n14254'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 62 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

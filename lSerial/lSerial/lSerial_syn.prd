@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version Q-2020.03L-SP1
+#--  Project file C:\pproj\lSerial\lSerial\lSerial_syn.prd
+#--  Written on Thu Dec 28 17:09:56 2023
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

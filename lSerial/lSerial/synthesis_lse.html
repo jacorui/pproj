@@ -1,0 +1,408 @@
+<HTML>
+<HEAD><TITLE>Synthesis and Ngdbuild Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis and Ngdbuild  Report</big></U></B>
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Thu Dec 28 19:46:38 2023
+
+
+Command Line:  synthesis -f lSerial_lSerial_lattice.synproj -gui -msgset C:/pproj/lSerial/promote.xml 
+
+Synthesis options:
+The -a option is MachXO3L.
+The -s option is 5.
+The -t option is CABGA256.
+The -d option is LCMXO3L-6900C.
+Using package CABGA256.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3L
+
+### Device  : LCMXO3L-6900C
+
+### Package : CABGA256
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = top_lserial.
+Target frequency = 100.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3 (default)
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = no
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+WARNING - synthesis: Searchpath C:/pproj/lSerial/ISerial/source not found.
+-p C:/pproj/lSerial (searchpath added)
+-p C:/lscc/diamond/3.12/ispfpga/xo3c00a/data (searchpath added)
+-p C:/pproj/lSerial/lSerial (searchpath added)
+-p C:/pproj/lSerial (searchpath added)
+Verilog design file = C:/pproj/lSerial/lSerial/source/debCom.v
+Verilog design file = C:/pproj/lSerial/lSerial/source/uart.v
+Verilog design file = C:/pproj/lSerial/lSerial/source/pbEdge.v
+Verilog design file = C:/pproj/lSerial/lSerial/source/top_lserial.v
+NGD file = lSerial_lSerial.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/pproj/lserial/lserial/source/debcom.v. VERI-1482
+Analyzing Verilog file c:/pproj/lserial/lserial/source/uart.v. VERI-1482
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(48): parameter declaration becomes local in uart_rx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(49): parameter declaration becomes local in uart_rx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(50): parameter declaration becomes local in uart_rx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(51): parameter declaration becomes local in uart_rx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(52): parameter declaration becomes local in uart_rx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(187): parameter declaration becomes local in uart_tx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(188): parameter declaration becomes local in uart_tx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(189): parameter declaration becomes local in uart_tx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(190): parameter declaration becomes local in uart_tx with formal parameter declaration list. VERI-1199
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(191): parameter declaration becomes local in uart_tx with formal parameter declaration list. VERI-1199
+Analyzing Verilog file c:/pproj/lserial/lserial/source/pbedge.v. VERI-1482
+Analyzing Verilog file c:/pproj/lserial/lserial/source/top_lserial.v. VERI-1482
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(43): redeclaration of ansi port pb is not allowed. VERI-1372
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Top module name (Verilog): top_lserial
+INFO - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(11): compiling module top_lserial. VERI-1018
+INFO - synthesis: c:/pproj/lserial/lserial/source/pbedge.v(1): compiling module pbEdge. VERI-1018
+INFO - synthesis: c:/pproj/lserial/lserial/source/debcom.v(13): compiling module debCom. VERI-1018
+INFO - synthesis: c:/pproj/lserial/lserial/source/uart.v(1): compiling module uart(CLKS_PER_BIT=104). VERI-1018
+INFO - synthesis: c:/pproj/lserial/lserial/source/uart.v(39): compiling module uart_rx(CLKS_PER_BIT=104). VERI-1018
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(105): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(116): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(127): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(145): expression size 32 truncated to fit in target size 8. VERI-1209
+INFO - synthesis: c:/pproj/lserial/lserial/source/uart.v(176): compiling module uart_tx(CLKS_PER_BIT=104). VERI-1018
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(230): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(248): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(258): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/uart.v(278): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(169): expression size 12 truncated to fit in target size 1. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(310): expression size 32 truncated to fit in target size 16. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(333): expression size 32 truncated to fit in target size 16. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(524): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(526): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(528): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(530): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(531): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(533): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(534): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(536): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(538): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(540): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(542): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(544): expression size 8 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(577): expression size 32 truncated to fit in target size 5. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(605): expression size 32 truncated to fit in target size 8. VERI-1209
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(83): net bufferL1[12][7] does not have a driver. VDB-1002
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(84): net bufferL2[12][7] does not have a driver. VDB-1002
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(69): actual bit length 7 differs from formal bit length 8 for port led. VERI-1330
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(71): actual bit length 1 differs from formal bit length 32 for port dataIn. VERI-1330
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(72): actual bit length 1 differs from formal bit length 32 for port dataOut. VERI-1330
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(73): actual bit length 1 differs from formal bit length 8 for port addrOut. VERI-1330
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(74): actual bit length 1 differs from formal bit length 8 for port devOut. VERI-1330
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(75): actual bit length 1 differs from formal bit length 3 for port cycle. VERI-1330
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(71): net dataIn does not have a driver. VDB-1002
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(78): net bsy does not have a driver. VDB-1002
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(79): net ok does not have a driver. VDB-1002
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(83): input port status[45] is not connected on this instance. VDB-1013
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.16.
+Top-level module name = top_lserial.
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(55): Removing unused instance pbE0. VDB-5034
+WARNING - synthesis: c:/pproj/lserial/lserial/source/top_lserial.v(63): Removing unused instance pbE1. VDB-5034
+WARNING - synthesis: I/O Port pb[1] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port pb[0] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port master_i2c_int 's net has no driver and is unused.
+######## Converting I/O port master_i2c_sda to input.
+WARNING - synthesis: I/O Port master_i2c_scl 's net has no driver and is unused.
+######## Converting I/O port spi_clk to input.
+######## Converting I/O port spi_miso to input.
+######## Converting I/O port spi_mosi to input.
+######## Missing driver on net master_i2c_scl. Patching with GND.
+######## Missing driver on net dataIn. Patching with GND.
+######## Missing driver on net bsy. Patching with GND.
+######## Missing driver on net ok. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][7]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][6]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][5]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][4]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][3]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][2]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][1]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL1[12][0]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][7]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][6]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][5]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][4]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][3]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][2]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][1]. Patching with GND.
+######## Missing driver on net \debCom_inst/bufferL2[12][0]. Patching with GND.
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(622): Register \debCom_inst/bufferL1[11][7]_1883 is stuck at Zero. VDB-5013
+WARNING - synthesis: c:/pproj/lserial/lserial/source/debcom.v(622): Register \debCom_inst/bufferL1[11][1]_1890 is stuck at One. VDB-5014
+
+
+
+WARNING - synthesis: Bit 0 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 1 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 2 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 3 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 4 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 5 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 6 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 7 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 8 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 9 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 10 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 11 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 12 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 13 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 14 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 15 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 16 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 17 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 18 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 19 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 20 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 21 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 22 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 23 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 24 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 25 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 26 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 27 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 28 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 29 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 30 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: Bit 31 of Register \debCom_inst/dataLog is stuck at Zero
+WARNING - synthesis: I/O Port pb[1] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port pb[0] 's net has no driver and is unused.
+WARNING - synthesis: I/O Port master_i2c_int 's net has no driver and is unused.
+WARNING - synthesis: I/O Port master_i2c_sda 's net has no driver and is unused.
+WARNING - synthesis: I/O Port spi_clk 's net has no driver and is unused.
+WARNING - synthesis: I/O Port spi_miso 's net has no driver and is unused.
+WARNING - synthesis: I/O Port spi_mosi 's net has no driver and is unused.
+Duplicate register/latch removal. \debCom_inst/bufferL2[5][6]_2029 is a one-to-one match with \debCom_inst/bufferL2[4][1]_2042.
+Duplicate register/latch removal. \debCom_inst/bufferL2[5][5]_2030 is a one-to-one match with \debCom_inst/bufferL2[2][5]_2054.
+Duplicate register/latch removal. \debCom_inst/bufferL2[4][2]_2041 is a one-to-one match with \debCom_inst/bufferL2[3][2]_2049.
+Duplicate register/latch removal. \debCom_inst/bufferL2[3][4]_2047 is a one-to-one match with \debCom_inst/bufferL2[1][4]_2063.
+Duplicate register/latch removal. \debCom_inst/bufferL2[2][6]_2053 is a one-to-one match with \debCom_inst/bufferL2[1][6]_2061.
+Duplicate register/latch removal. \debCom_inst/bufferL2[2][0]_2059 is a one-to-one match with \debCom_inst/bufferL2[0][4]_2071.
+Duplicate register/latch removal. \debCom_inst/bufferL2[1][5]_2062 is a one-to-one match with \debCom_inst/bufferL2[5][5]_2030.
+Duplicate register/latch removal. \debCom_inst/bufferL2[1][2]_2065 is a one-to-one match with \debCom_inst/bufferL2[1][0]_2067.
+Duplicate register/latch removal. \debCom_inst/bufferL1[3][2]_1953 is a one-to-one match with \debCom_inst/bufferL1[0][4]_1975.
+Duplicate register/latch removal. \debCom_inst/bufferL1[3][0]_1955 is a one-to-one match with \debCom_inst/bufferL1[2][1]_1962.
+Duplicate register/latch removal. \debCom_inst/bufferL1[0][2]_1977 is a one-to-one match with \debCom_inst/bufferL1[3][5]_1950.
+Duplicate register/latch removal. \debCom_inst/bufferL1[0][3]_1976 is a one-to-one match with \debCom_inst/bufferL1[3][4]_1951.
+Duplicate register/latch removal. \debCom_inst/bufferL1[0][5]_1974 is a one-to-one match with \debCom_inst/bufferL1[3][1]_1954.
+Duplicate register/latch removal. \debCom_inst/bufferL1[1][1]_1970 is a one-to-one match with \debCom_inst/bufferL1[2][5]_1958.
+Duplicate register/latch removal. \debCom_inst/bufferL1[1][4]_1967 is a one-to-one match with \debCom_inst/bufferL1[2][2]_1961.
+Duplicate register/latch removal. \debCom_inst/bufferL1[3][2]_1953 is a one-to-one match with \debCom_inst/bufferL1[3][0]_1955.
+Duplicate register/latch removal. \debCom_inst/bufferL1[0][2]_1977 is a one-to-one match with \debCom_inst/bufferL1[1][4]_1967.
+Duplicate register/latch removal. \debCom_inst/bufferL1[0][3]_1976 is a one-to-one match with \debCom_inst/bufferL1[1][1]_1970.
+Duplicate register/latch removal. \debCom_inst/bufferL1[0][5]_1974 is a one-to-one match with \debCom_inst/bufferL1[0][3]_1976.
+Duplicate register/latch removal. \debCom_inst/bufferL1[0][2]_1977 is a one-to-one match with \debCom_inst/bufferL1[0][5]_1974.
+Applying 100.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in top_lserial_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: logical net 'pb[1]' has no load.
+WARNING - synthesis: input pad net 'pb[1]' has no legal load.
+WARNING - synthesis: logical net 'pb[0]' has no load.
+WARNING - synthesis: input pad net 'pb[0]' has no legal load.
+WARNING - synthesis: logical net 'master_i2c_int' has no load.
+WARNING - synthesis: input pad net 'master_i2c_int' has no legal load.
+WARNING - synthesis: logical net 'master_i2c_sda' has no load.
+WARNING - synthesis: input pad net 'master_i2c_sda' has no legal load.
+WARNING - synthesis: logical net 'spi_clk' has no load.
+WARNING - synthesis: input pad net 'spi_clk' has no legal load.
+WARNING - synthesis: logical net 'spi_miso' has no load.
+WARNING - synthesis: input pad net 'spi_miso' has no legal load.
+WARNING - synthesis: logical net 'spi_mosi' has no load.
+WARNING - synthesis: input pad net 'spi_mosi' has no legal load.
+WARNING - synthesis: DRC complete with 14 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file lSerial_lSerial.ngd.
+
+################### Begin Area Report (top_lserial)######################
+Number of register bits => 304 of 7485 (4 % )
+CCU2D => 14
+FD1P3AX => 66
+FD1P3BX => 23
+FD1P3DX => 138
+FD1P3IX => 16
+FD1S3AY => 2
+FD1S3BX => 6
+FD1S3DX => 47
+FD1S3IX => 6
+GSR => 1
+IB => 6
+L6MUX21 => 13
+LUT4 => 574
+OB => 10
+PFUMX => 76
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : sysclk_c, loads : 304
+Clock Enable Nets
+Number of Clock Enables: 44
+Top 10 highest fanout Clock Enables:
+  Net : debCom_inst/sysclk_c_enable_238, loads : 50
+  Net : debCom_inst/sysclk_c_enable_72, loads : 30
+  Net : debCom_inst/sysclk_c_enable_73, loads : 22
+  Net : debCom_inst/URT/UART_TX_INST/sysclk_c_enable_180, loads : 9
+  Net : debCom_inst/URT/UART_RX_INST/sysclk_c_enable_233, loads : 8
+  Net : debCom_inst/sysclk_c_enable_225, loads : 8
+  Net : debCom_inst/sysclk_c_enable_138, loads : 8
+  Net : debCom_inst/sysclk_c_enable_145, loads : 8
+  Net : debCom_inst/URT/UART_TX_INST/sysclk_c_enable_118, loads : 8
+  Net : debCom_inst/sysclk_c_enable_124, loads : 7
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : debCom_inst/n14254, loads : 223
+  Net : debCom_inst/cmd_1, loads : 125
+  Net : debCom_inst/lns, loads : 85
+  Net : debCom_inst/n15, loads : 62
+  Net : debCom_inst/cmd_0, loads : 62
+  Net : debCom_inst/recBuf_0_0, loads : 54
+  Net : debCom_inst/sysclk_c_enable_238, loads : 50
+  Net : debCom_inst/stm_0, loads : 49
+  Net : debCom_inst/recBuf_0_2, loads : 42
+  Net : debCom_inst/n2883, loads : 41
+################### End Clock Report ##################
+
+<A name="lse_trs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 10.000000 -name    |             |             |
+clk0 [get_nets sysclk_c]                |  100.000 MHz|   75.919 MHz|     8 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+
+Peak Memory Usage: 79.590  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 2.328  secs
+--------------------------------------------------------------
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

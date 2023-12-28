@@ -1,0 +1,28 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Dec 28 19:46:49 2023 *
+NOTE DESIGN NAME: top_lserial *
+NOTE DEVICE NAME: LCMXO3L-6900C-5CABGA256 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[4] : K11 : out *
+NOTE PINS usb_uart_rx : A11 : in *
+NOTE PINS sw[0] : N2 : in *
+NOTE PINS sw[1] : P1 : in *
+NOTE PINS sw[2] : M3 : in *
+NOTE PINS sw[3] : N1 : in *
+NOTE PINS sysclk : C8 : in *
+NOTE PINS usb_uart_tx : C11 : out *
+NOTE PINS master_i2c_scl : T5 : out *
+NOTE PINS led[0] : H11 : out *
+NOTE PINS led[1] : J13 : out *
+NOTE PINS led[2] : J11 : out *
+NOTE PINS led[3] : L12 : out *
+NOTE PINS led[5] : L13 : out *
+NOTE PINS led[6] : N15 : out *
+NOTE PINS led[7] : P16 : out *
+NOTE PINS SYSCONFIG_PIN_MCLK : P6 : inout *
+NOTE PINS SYSCONFIG_PIN_SO : T6 : inout *
+NOTE PINS SYSCONFIG_PIN_SN : R12 : in *
+NOTE PINS SYSCONFIG_PIN_SI : P13 : inout *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

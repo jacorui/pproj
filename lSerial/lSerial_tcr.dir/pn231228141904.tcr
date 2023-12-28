@@ -1,0 +1,8 @@
+#Start recording tcl command: 12/27/2023 13:53:57
+#Project Location: C:/pproj/lSerial; Project name: lSerial
+prj_project new -name "lSerial" -impl "lSerial" -dev LCMXO3L-6900C-5BG256C -synthesis "synplify"
+prj_project save
+prj_src add "C:/pproj/lSerial/lSerial/source/top.v"
+prj_src add "C:/pproj/lSerial/lSerial/source/debCom.v"
+prj_src add "C:/pproj/lSerial/lSerial/source/uart.v"
+#Stop recording: 12/28/2023 14:19:04

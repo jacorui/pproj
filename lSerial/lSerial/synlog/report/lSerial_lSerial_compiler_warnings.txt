@@ -1,0 +1,2 @@
+@W: CG921 :"C:\pproj\lSerial\lSerial\source\top.v":43:13:43:14|pb is already declared in this scope.
+

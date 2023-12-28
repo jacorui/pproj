@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\pproj\lserial\lserial\source\uart.v":74:2:74:7|Found inferred clock uart|clk which controls 47 sequential elements including UART_RX_INST.r_SM_Main[2]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

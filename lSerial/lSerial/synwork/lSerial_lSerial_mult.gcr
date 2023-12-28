@@ -1,0 +1,8 @@
+i clk
+m 0 0
+u 32 47
+p {p:clk}{t:UART_TX_INST.i_Clock}{p:UART_TX_INST.i_Clock}{t:UART_TX_INST.r_SM_Main[2].C}
+e ckid0_0 {t:UART_TX_INST.r_SM_Main[2].C} dffr
+c ckid0_0 {p:clk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

@@ -1,0 +1,30 @@
+Results of NGD DRC are available in top_lserial_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'pb[1]' has no load.
+WARNING - synthesis: input pad net 'pb[1]' has no legal load.
+WARNING - synthesis: logical net 'pb[0]' has no load.
+WARNING - synthesis: input pad net 'pb[0]' has no legal load.
+WARNING - synthesis: logical net 'master_i2c_int' has no load.
+WARNING - synthesis: input pad net 'master_i2c_int' has no legal load.
+WARNING - synthesis: logical net 'master_i2c_sda' has no load.
+WARNING - synthesis: input pad net 'master_i2c_sda' has no legal load.
+WARNING - synthesis: logical net 'spi_clk' has no load.
+WARNING - synthesis: input pad net 'spi_clk' has no legal load.
+WARNING - synthesis: logical net 'spi_miso' has no load.
+WARNING - synthesis: input pad net 'spi_miso' has no legal load.
+WARNING - synthesis: logical net 'spi_mosi' has no load.
+WARNING - synthesis: input pad net 'spi_mosi' has no legal load.
+WARNING - synthesis: DRC complete with 14 warnings.
+
+Design Results:
+   1001 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file lSerial_lSerial.ngd.

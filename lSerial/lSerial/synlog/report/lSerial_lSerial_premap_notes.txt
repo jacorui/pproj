@@ -1,0 +1,14 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "1" on instance r_Rx_Data.
+@N: FX493 |Applying initial value "1" on instance r_Rx_Data_R.
+@N: FX493 |Applying initial value "00000000" on instance r_Rx_Byte[7:0].
+@N: FX493 |Applying initial value "0" on instance r_Rx_DV.
+@N: FX493 |Applying initial value "000" on instance r_SM_Main[2:0].
+@N: FX493 |Applying initial value "00000000" on instance r_Tx_Data[7:0].
+@N: FX493 |Applying initial value "0" on instance r_Tx_Active.
+@N: FX493 |Applying initial value "0" on instance r_Tx_Done.
+@N: FX493 |Applying initial value "000" on instance r_SM_Main[2:0].
+@N: FX1184 |Applying syn_allowed_resources blockrams=240 on top level netlist uart 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

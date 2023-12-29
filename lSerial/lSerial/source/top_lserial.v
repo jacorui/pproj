@@ -43,7 +43,8 @@ wire         rst;
 wire [ 1: 0] pb;
 wire [ 1: 0] pbE;
 assign rst				=	sw[3];
-assign led[7]     = sw[3];
+assign led[7]     = usb_uart_rx;
+assign led[6]     = usb_uart_tx;
 assign sysrst     = rst | rstOutCall;
 
 //! Push Button Edge Debounce 0
@@ -66,7 +67,7 @@ pbEdge pbE1(
 debCom  debCom_inst (
         .clk            (       sysclk),      //! Common Clock
         .rst            (       sysrst),      //! Common Reset
-        .led            (     led[6:0]),      //! Output LED
+        .led            (     led[5:0]),      //! Output LED
         .sw             (           sw),      //! Input SW
         .dataIn         (       dataIn),      //! I2C control
         .dataOut        (      dataOut),      //! I2C control
@@ -81,5 +82,15 @@ debCom  debCom_inst (
         .rxd            (  usb_uart_rx),      //! Com UART Rx
         .txd            (  usb_uart_tx)       //! Com UART Tx
   );
+
+reg [31:0] cte;
+
+always @(posedge sysclk or negedge rst) begin
+  if(!rst)begin
+    cte <= 'b0;
+  end else begin
+    cte <= cte + 'b1;
+  end  
+end
 
 endmodule

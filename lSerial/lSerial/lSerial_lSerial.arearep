@@ -1,13 +1,13 @@
 ----------------------------------------------------------------------
 Report for cell top_lserial.TECH
-Register bits:  304 of 7485 (4.061%)
+Register bits:  302 of 7485 (4.035%)
 I/O cells:      16
                                   Cell usage:
                                cell     count   Res Usage(%)
                               CCU2D        14          100.0
                             FD1P3AX        66          100.0
                             FD1P3BX        23          100.0
-                            FD1P3DX       138          100.0
+                            FD1P3DX       136          100.0
                             FD1P3IX        16          100.0
                             FD1S3AY         2          100.0
                             FD1S3BX         6          100.0
@@ -15,16 +15,16 @@ I/O cells:      16
                             FD1S3IX         6          100.0
                                 GSR         1          100.0
                                  IB         6          100.0
-                            L6MUX21        13          100.0
-                               LUT4       574          100.0
+                            L6MUX21         8          100.0
+                               LUT4       588          100.0
                                  OB        10          100.0
-                              PFUMX        76          100.0
+                              PFUMX        91          100.0
 SUB MODULES
                              debCom         1
              uart(CLKS_PER_BIT=104)         1
           uart_rx(CLKS_PER_BIT=104)         1
           uart_tx(CLKS_PER_BIT=104)         1
-                              TOTAL      1002
+                              TOTAL      1024
 ----------------------------------------------------------------------
 Report for cell debCom.v1
 Instance Path : debCom_inst
@@ -33,20 +33,20 @@ Instance Path : debCom_inst
                               CCU2D        14          100.0
                             FD1P3AX        66          100.0
                             FD1P3BX        23          100.0
-                            FD1P3DX       138          100.0
+                            FD1P3DX       136          100.0
                             FD1P3IX        16          100.0
                             FD1S3AY         2          100.0
                             FD1S3BX         6          100.0
                             FD1S3DX        47          100.0
                             FD1S3IX         6          100.0
-                            L6MUX21        13          100.0
-                               LUT4       572           99.7
-                              PFUMX        76          100.0
+                            L6MUX21         8          100.0
+                               LUT4       586           99.7
+                              PFUMX        91          100.0
 SUB MODULES
              uart(CLKS_PER_BIT=104)         1
           uart_rx(CLKS_PER_BIT=104)         1
           uart_tx(CLKS_PER_BIT=104)         1
-                              TOTAL       982
+                              TOTAL      1004
 ----------------------------------------------------------------------
 Report for cell uart(CLKS_PER_BIT=104).v1
 Instance Path : debCom_inst.URT
@@ -57,9 +57,9 @@ Instance Path : debCom_inst.URT
                             FD1P3IX        16          100.0
                             FD1S3AY         2          100.0
                             FD1S3IX         6          100.0
-                            L6MUX21         1            7.7
-                               LUT4        57            9.9
-                              PFUMX         4            5.3
+                            L6MUX21         1           12.5
+                               LUT4        56            9.5
+                              PFUMX         5            5.5
 SUB MODULES
           uart_rx(CLKS_PER_BIT=104)         1
           uart_tx(CLKS_PER_BIT=104)         1
@@ -73,10 +73,10 @@ Instance Path : debCom_inst.URT.UART_TX_INST
                             FD1P3AX        14           21.2
                             FD1P3IX         8           50.0
                             FD1S3IX         3           50.0
-                            L6MUX21         1            7.7
-                               LUT4        25            4.4
-                              PFUMX         3            3.9
-                              TOTAL        59
+                            L6MUX21         1           12.5
+                               LUT4        25            4.3
+                              PFUMX         4            4.4
+                              TOTAL        60
 ----------------------------------------------------------------------
 Report for cell uart_rx(CLKS_PER_BIT=104).v1
 Instance Path : debCom_inst.URT.UART_RX_INST
@@ -87,6 +87,6 @@ Instance Path : debCom_inst.URT.UART_RX_INST
                             FD1P3IX         8           50.0
                             FD1S3AY         2          100.0
                             FD1S3IX         3           50.0
-                               LUT4        32            5.6
-                              PFUMX         1            1.3
-                              TOTAL        63
+                               LUT4        31            5.3
+                              PFUMX         1            1.1
+                              TOTAL        62

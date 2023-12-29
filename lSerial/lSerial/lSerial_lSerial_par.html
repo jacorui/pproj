@@ -12,7 +12,7 @@ Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Dec 28 19:46:42 2023
+Fri Dec 29 18:33:12 2023
 
 C:/lscc/diamond/3.12/ispfpga\bin\nt64\par -f lSerial_lSerial.p2t
 lSerial_lSerial_map.ncd lSerial_lSerial.dir lSerial_lSerial.prf -gui -msgset
@@ -28,14 +28,14 @@ Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Ti
 5_1   *      0            -            -            -            -            03           Completed
 * : Design saved.
 
-Total (real) run time for 1-seed: 4 secs 
+Total (real) run time for 1-seed: 3 secs 
 
 par done!
 
 Note: user must run &apos;Trace&apos; for timing closure signoff.
 
 Lattice Place and Route Report for Design &quot;lSerial_lSerial_map.ncd&quot;
-Thu Dec 28 19:46:42 2023
+Fri Dec 29 18:33:12 2023
 
 
 <A name="par_best"></A><B><U><big>Best Par Run</big></U></B>
@@ -65,40 +65,40 @@ Ignore Preference Error(s):  True
    PIO (prelim)   16+4(JTAG)/336     6% used
                   16+4(JTAG)/207     10% bonded
 
-   SLICE            306/3432          8% used
+   SLICE            313/3432          9% used
 
    GSR                1/1           100% used
 
 
-Number of Signals: 858
-Number of Connections: 2708
+Number of Signals: 848
+Number of Connections: 2678
 WARNING - par: The SN pin is not available for use as a general purpose I/O pin when the SLAVE_SPI_PORT attribute is enabled.  The SN pin should be tied high with an external pull-up if you are not using the Slave SPI port for configuration.
 
 Pin Constraint Summary:
    16 out of 16 pins locked (100% locked).
 
 The following 1 signal is selected to use the primary clock routing resources:
-    sysclk_c (driver: sysclk, clk load #: 198)
+    sysclk_c (driver: sysclk, clk load #: 196)
 
 
 The following 3 signals are selected to use the secondary clock routing resources:
-    debCom_inst/sysclk_c_enable_238 (driver: debCom_inst/SLICE_330, clk load #: 0, sr load #: 0, ce load #: 25)
-    debCom_inst/sysclk_c_enable_72 (driver: debCom_inst/SLICE_302, clk load #: 0, sr load #: 0, ce load #: 21)
-    debCom_inst/sysclk_c_enable_73 (driver: debCom_inst/SLICE_302, clk load #: 0, sr load #: 0, ce load #: 14)
+    debCom_inst/sysclk_c_enable_235 (driver: debCom_inst/SLICE_310, clk load #: 0, sr load #: 0, ce load #: 24)
+    debCom_inst/sysclk_c_enable_79 (driver: debCom_inst/SLICE_321, clk load #: 0, sr load #: 0, ce load #: 14)
+    debCom_inst/sysclk_c_enable_80 (driver: debCom_inst/SLICE_285, clk load #: 0, sr load #: 0, ce load #: 14)
 
-Signal debCom_inst/n14254 is selected as Global Set/Reset.
+Signal debCom_inst/n14975 is selected as Global Set/Reset.
 Starting Placer Phase 0.
-...........
+..........
 Finished Placer Phase 0.  REAL time: 0 secs 
 
 Starting Placer Phase 1.
 .....................
-Placer score = 127530.
+Placer score = 126212.
 Finished Placer Phase 1.  REAL time: 0 secs 
 
 Starting Placer Phase 2.
 .
-Placer score =  127129
+Placer score =  125197
 Finished Placer Phase 2.  REAL time: 2 secs 
 
 
@@ -112,10 +112,10 @@ Global Clock Resources:
   DCC        : 0 out of 8 (0%)
 
 Global Clocks:
-  PRIMARY &quot;sysclk_c&quot; from comp &quot;sysclk&quot; on CLK_PIN site &quot;C8 (PT18A)&quot;, clk load = 198
-  SECONDARY &quot;debCom_inst/sysclk_c_enable_238&quot; from F1 on comp &quot;debCom_inst/SLICE_330&quot; on site &quot;R14C20A&quot;, clk load = 0, ce load = 25, sr load = 0
-  SECONDARY &quot;debCom_inst/sysclk_c_enable_72&quot; from F1 on comp &quot;debCom_inst/SLICE_302&quot; on site &quot;R14C20B&quot;, clk load = 0, ce load = 21, sr load = 0
-  SECONDARY &quot;debCom_inst/sysclk_c_enable_73&quot; from F0 on comp &quot;debCom_inst/SLICE_302&quot; on site &quot;R14C20B&quot;, clk load = 0, ce load = 14, sr load = 0
+  PRIMARY &quot;sysclk_c&quot; from comp &quot;sysclk&quot; on CLK_PIN site &quot;C8 (PT18A)&quot;, clk load = 196
+  SECONDARY &quot;debCom_inst/sysclk_c_enable_235&quot; from F0 on comp &quot;debCom_inst/SLICE_310&quot; on site &quot;R14C18B&quot;, clk load = 0, ce load = 24, sr load = 0
+  SECONDARY &quot;debCom_inst/sysclk_c_enable_79&quot; from F1 on comp &quot;debCom_inst/SLICE_321&quot; on site &quot;R14C20A&quot;, clk load = 0, ce load = 14, sr load = 0
+  SECONDARY &quot;debCom_inst/sysclk_c_enable_80&quot; from F0 on comp &quot;debCom_inst/SLICE_285&quot; on site &quot;R14C20C&quot;, clk load = 0, ce load = 14, sr load = 0
 
   PRIMARY  : 1 out of 8 (12%)
   SECONDARY: 3 out of 8 (37%)
@@ -153,12 +153,12 @@ Dumping design to file lSerial_lSerial.dir/5_1.ncd.
 INFO - par: ASE feature is off due to non timing-driven settings.  
 -----------------------------------------------------------------
 
-0 connections routed; 2708 unrouted.
+0 connections routed; 2678 unrouted.
 Starting router resource preassignment
 
 Completed router resource preassignment. Real time: 2 secs 
 
-Start NBR router at 19:46:44 12/28/23
+Start NBR router at 18:33:14 12/29/23
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -173,34 +173,30 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 19:46:45 12/28/23
+Start NBR special constraint process at 18:33:15 12/29/23
 
-Start NBR section for initial routing at 19:46:45 12/28/23
+Start NBR section for initial routing at 18:33:15 12/29/23
 Level 4, iteration 1
-100(0.03%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
+74(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
 
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 19:46:45 12/28/23
+Start NBR section for normal routing at 18:33:15 12/29/23
 Level 4, iteration 1
-38(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
+25(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
 Level 4, iteration 2
-13(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
+6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
 Level 4, iteration 3
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
-Level 4, iteration 4
-2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
-Level 4, iteration 5
 1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
-Level 4, iteration 6
+Level 4, iteration 4
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
 
-Start NBR section for re-routing at 19:46:45 12/28/23
+Start NBR section for re-routing at 18:33:15 12/29/23
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; real time: 3 secs 
 
-Start NBR section for post-routing at 19:46:45 12/28/23
+Start NBR section for post-routing at 18:33:15 12/29/23
 
 End NBR router with 0 unrouted connection
 
@@ -218,7 +214,7 @@ Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored
 Total CPU time 3 secs 
 Total REAL time: 3 secs 
 Completely routed.
-End of route.  2708 routed (100.00%); 0 unrouted.
+End of route.  2678 routed (100.00%); 0 unrouted.
 
 Hold time timing score: 0, hold timing errors: 0
 
@@ -239,7 +235,7 @@ PAR_SUMMARY::Timing score&lt;hold /&lt;ns&gt;&gt; = &lt;n/a&gt;
 PAR_SUMMARY::Number of errors = 0
 
 Total CPU  time to completion: 3 secs 
-Total REAL time to completion: 4 secs 
+Total REAL time to completion: 3 secs 
 
 par done!
 

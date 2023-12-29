@@ -14,7 +14,7 @@ Performance Grade:      5
 PACKAGE:          CABGA256
 Package Status:                     Final          Version 1.16
 
-Thu Dec 28 19:46:44 2023
+Fri Dec 29 18:33:14 2023
 
 Pinout by Port Name:
 +----------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
@@ -34,8 +34,8 @@ Pinout by Port Name:
 | sw[2]          | M3/3     | LVCMOS33_IN  | PL24A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | sw[3]          | N1/3     | LVCMOS33_IN  | PL24B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 | sysclk         | C8/0     | LVCMOS33_IN  | PT18A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| usb_uart_rx    | A11/0    | LVCMOS33_IN  | PT28A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
-| usb_uart_tx    | C11/0    | LVCMOS33_OUT | PT28B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| usb_uart_rx    | A11/0    | LVTTL33_IN   | PT28A |           |           | CLAMP:ON HYSTERESIS:SMALL            |
+| usb_uart_tx    | C11/0    | LVTTL33_OUT  | PT28B |           |           | DRIVE:8mA SLEW:SLOW                  |
 +----------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
 Vccio by Bank:
@@ -69,7 +69,7 @@ Vccio by Bank:
 | A8/0     |     unused, PULL:DOWN |            |               | PT18B | PCLKC0_1       |           |           |
 | A9/0     |     unused, PULL:DOWN |            |               | PT22C | SCL/PCLKT0_0   |           |           |
 | A10/0    |     unused, PULL:DOWN |            |               | PT25B |                |           |           |
-| A11/0    | usb_uart_rx           | LOCATED    | LVCMOS33_IN   | PT28A |                |           |           |
+| A11/0    | usb_uart_rx           | LOCATED    | LVTTL33_IN    | PT28A |                |           |           |
 | A12/0    |     unused, PULL:DOWN |            |               | PT33B |                |           |           |
 | A13/0    |     unused, PULL:DOWN |            |               | PT36C | INITN          |           |           |
 | A14/0    |     unused, PULL:DOWN |            |               | PT34B |                |           |           |
@@ -97,7 +97,7 @@ Vccio by Bank:
 | C8/0     | sysclk                | LOCATED    | LVCMOS33_IN   | PT18A | PCLKT0_1       |           |           |
 | C9/0     |     unused, PULL:DOWN |            |               | PT22D | SDA/PCLKC0_0   |           |           |
 | C10/0    |     unused, PULL:DOWN |            |               | PT27C | JTAGENB        |           |           |
-| C11/0    | usb_uart_tx           | LOCATED    | LVCMOS33_OUT  | PT28B |                |           |           |
+| C11/0    | usb_uart_tx           | LOCATED    | LVTTL33_OUT   | PT28B |                |           |           |
 | C12/0    |     unused, PULL:DOWN |            |               | PT35A |                |           |           |
 | C13/0    |     unused, PULL:DOWN |            |               | PT36D | DONE           |           |           |
 | C15/1    |     unused, PULL:DOWN |            |               | PR2C  |                |           |           |
@@ -446,7 +446,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Dec 28 19:46:44 2023
+Fri Dec 29 18:33:14 2023
 
 
 

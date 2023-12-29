@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Dec 28 19:46:42 2023
+Fri Dec 29 18:33:12 2023
 
 C:/lscc/diamond/3.12/ispfpga\bin\nt64\par -f lSerial_lSerial.p2t
 lSerial_lSerial_map.ncd lSerial_lSerial.dir lSerial_lSerial.prf -gui -msgset
@@ -20,7 +20,7 @@ Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Ti
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 4 secs 
+Total (real) run time for 1-seed: 3 secs 
 
 par done!
 

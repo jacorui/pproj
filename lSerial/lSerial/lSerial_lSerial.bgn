@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Dec 28 19:46:47 2023
+Fri Dec 29 18:33:16 2023
 
 
 Command: bitgen -g RamCfg:Reset -path C:/pproj/lSerial -w -jedec -gui -msgset C:/pproj/lSerial/promote.xml lSerial_lSerial.ncd lSerial_lSerial.prf 
@@ -74,5 +74,5 @@ Bitstream Status: Final           Version 1.95.
  
 Saving bit stream in "lSerial_lSerial.jed".
 Total CPU Time: 2 secs 
-Total REAL Time: 2 secs 
+Total REAL Time: 3 secs 
 Peak Memory Usage: 292 MB

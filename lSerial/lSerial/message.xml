@@ -46,7 +46,7 @@
         <Message>
             <ID>51001030</ID>
             <Severity>Warning</Severity>
-            <Dynamic>debCom_inst/n14254</Dynamic>
+            <Dynamic>debCom_inst/n14975</Dynamic>
         </Message>
         <Message>
             <ID>51001046</ID>
@@ -318,92 +318,20 @@
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(310): </Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(325): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>16</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>310</Navigation>
+            <Navigation>325</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(333): </Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(348): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>16</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>333</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(524): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>524</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(526): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>526</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(528): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>528</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(530): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>530</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(531): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>531</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(533): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>533</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(534): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>534</Navigation>
-        </Message>
-        <Message>
-            <ID>35901209</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(536): </Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>4</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>536</Navigation>
+            <Navigation>348</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
@@ -444,20 +372,92 @@
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(577): </Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>5</Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(545): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>577</Navigation>
+            <Navigation>545</Navigation>
         </Message>
         <Message>
             <ID>35901209</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(605): </Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(547): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>547</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(548): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>548</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(550): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>550</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(552): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>552</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(554): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>554</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(556): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>556</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(558): </Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>558</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(590): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>5</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
+            <Navigation>590</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(618): </Dynamic>
             <Dynamic>32</Dynamic>
             <Dynamic>8</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>605</Navigation>
+            <Navigation>618</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
@@ -478,22 +478,12 @@
         <Message>
             <ID>35901330</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(69): </Dynamic>
-            <Dynamic>7</Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(70): </Dynamic>
+            <Dynamic>6</Dynamic>
             <Dynamic>8</Dynamic>
             <Dynamic>led</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
-            <Navigation>69</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(71): </Dynamic>
-            <Dynamic>1</Dynamic>
-            <Dynamic>32</Dynamic>
-            <Dynamic>dataIn</Dynamic>
-            <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
-            <Navigation>71</Navigation>
+            <Navigation>70</Navigation>
         </Message>
         <Message>
             <ID>35901330</ID>
@@ -501,7 +491,7 @@
             <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(72): </Dynamic>
             <Dynamic>1</Dynamic>
             <Dynamic>32</Dynamic>
-            <Dynamic>dataOut</Dynamic>
+            <Dynamic>dataIn</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
             <Navigation>72</Navigation>
         </Message>
@@ -510,8 +500,8 @@
             <Severity>Warning</Severity>
             <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(73): </Dynamic>
             <Dynamic>1</Dynamic>
-            <Dynamic>8</Dynamic>
-            <Dynamic>addrOut</Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>dataOut</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
             <Navigation>73</Navigation>
         </Message>
@@ -521,7 +511,7 @@
             <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(74): </Dynamic>
             <Dynamic>1</Dynamic>
             <Dynamic>8</Dynamic>
-            <Dynamic>devOut</Dynamic>
+            <Dynamic>addrOut</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
             <Navigation>74</Navigation>
         </Message>
@@ -530,58 +520,68 @@
             <Severity>Warning</Severity>
             <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(75): </Dynamic>
             <Dynamic>1</Dynamic>
-            <Dynamic>3</Dynamic>
-            <Dynamic>cycle</Dynamic>
+            <Dynamic>8</Dynamic>
+            <Dynamic>devOut</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
             <Navigation>75</Navigation>
         </Message>
         <Message>
-            <ID>35931002</ID>
+            <ID>35901330</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(71): </Dynamic>
-            <Dynamic>dataIn</Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(76): </Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>cycle</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
-            <Navigation>71</Navigation>
+            <Navigation>76</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(78): </Dynamic>
-            <Dynamic>bsy</Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(72): </Dynamic>
+            <Dynamic>dataIn</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
-            <Navigation>78</Navigation>
+            <Navigation>72</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>Warning</Severity>
             <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(79): </Dynamic>
-            <Dynamic>ok</Dynamic>
+            <Dynamic>bsy</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
             <Navigation>79</Navigation>
         </Message>
         <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(80): </Dynamic>
+            <Dynamic>ok</Dynamic>
+            <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
+            <Navigation>80</Navigation>
+        </Message>
+        <Message>
             <ID>35931013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(83): </Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(84): </Dynamic>
             <Dynamic>status[45]</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
-            <Navigation>83</Navigation>
+            <Navigation>84</Navigation>
         </Message>
         <Message>
             <ID>35935034</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(55): </Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(56): </Dynamic>
             <Dynamic>pbE0</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
-            <Navigation>55</Navigation>
+            <Navigation>56</Navigation>
         </Message>
         <Message>
             <ID>35935034</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(63): </Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/top_lserial.v(64): </Dynamic>
             <Dynamic>pbE1</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/top_lserial.v</Navigation>
-            <Navigation>63</Navigation>
+            <Navigation>64</Navigation>
         </Message>
         <Message>
             <ID>35002005</ID>
@@ -606,18 +606,18 @@
         <Message>
             <ID>35935013</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(622): </Dynamic>
-            <Dynamic>\debCom_inst/bufferL1[11][7]_1883</Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(635): </Dynamic>
+            <Dynamic>\debCom_inst/bufferL1[11][7]_1887</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>622</Navigation>
+            <Navigation>635</Navigation>
         </Message>
         <Message>
             <ID>35935014</ID>
             <Severity>Warning</Severity>
-            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(622): </Dynamic>
-            <Dynamic>\debCom_inst/bufferL1[11][1]_1890</Dynamic>
+            <Dynamic>c:/pproj/lserial/lserial/source/debcom.v(635): </Dynamic>
+            <Dynamic>\debCom_inst/bufferL1[11][1]_1894</Dynamic>
             <Navigation>c:/pproj/lserial/lserial/source/debcom.v</Navigation>
-            <Navigation>622</Navigation>
+            <Navigation>635</Navigation>
         </Message>
         <Message>
             <ID>35001747</ID>

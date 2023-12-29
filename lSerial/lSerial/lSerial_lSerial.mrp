@@ -14,20 +14,20 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO3L-6900CCABGA256
 Target Performance:   5
 Mapper:  xo3c00a,  version:  Diamond (64-bit) 3.12.0.240.2
-Mapped on:  12/28/23  19:46:40
+Mapped on:  12/29/23  18:33:10
 
 Design Summary
 --------------
 
-   Number of registers:    304 out of  7485 (4%)
-      PFU registers:          304 out of  6864 (4%)
+   Number of registers:    302 out of  7485 (4%)
+      PFU registers:          302 out of  6864 (4%)
       PIO registers:            0 out of   621 (0%)
-   Number of SLICEs:       306 out of  3432 (9%)
-      SLICEs as Logic/ROM:    306 out of  3432 (9%)
+   Number of SLICEs:       313 out of  3432 (9%)
+      SLICEs as Logic/ROM:    313 out of  3432 (9%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         14 out of  3432 (0%)
-   Number of LUT4s:        603 out of  6864 (9%)
-      Number used as logic LUTs:        575
+   Number of LUT4s:        615 out of  6864 (9%)
+      Number used as logic LUTs:        587
       Number used as distributed RAM:     0
       Number used as ripple logic:       28
       Number used as shift registers:     0
@@ -57,93 +57,92 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net sysclk_c: 198 loads, 198 rising, 0 falling (Driver: PIO sysclk )
-   Number of Clock Enables:  44
-     Net debCom_inst/recv: 3 loads, 3 LSLICEs
+     Net sysclk_c: 196 loads, 196 rising, 0 falling (Driver: PIO sysclk )
+   Number of Clock Enables:  43
+     Net debCom_inst/sysclk_c_enable_235: 24 loads, 24 LSLICEs
 
                                     Page 1
 
 
 
 
-Design:  top_lserial                                   Date:  12/28/23  19:46:40
+Design:  top_lserial                                   Date:  12/29/23  18:33:10
 
 Design Summary (cont)
 ---------------------
-     Net debCom_inst/sysclk_c_enable_124: 4 loads, 4 LSLICEs
+     Net debCom_inst/recv: 3 loads, 3 LSLICEs
+     Net debCom_inst/sysclk_c_enable_24: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_158: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_127: 5 loads, 5 LSLICEs
+     Net debCom_inst/sysclk_c_enable_16: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_14: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_79: 14 loads, 14 LSLICEs
+     Net debCom_inst/sysclk_c_enable_80: 14 loads, 14 LSLICEs
+     Net debCom_inst/sysclk_c_enable_77: 9 loads, 9 LSLICEs
+     Net debCom_inst/sysclk_c_enable_65: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_120: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_113: 3 loads, 3 LSLICEs
+     Net debCom_inst/sysclk_c_enable_217: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_159: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_101: 4 loads, 4 LSLICEs
+     Net debCom_inst/sysclk_c_enable_139: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_135: 2 loads, 2 LSLICEs
      Net debCom_inst/sysclk_c_enable_131: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_92: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_108: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_145: 4 loads, 4 LSLICEs
-     Net debCom_inst/sysclk_c_enable_128: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_100: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_84: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_225: 4 loads, 4 LSLICEs
-     Net debCom_inst/sysclk_c_enable_88: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_104: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_18: 3 loads, 3 LSLICEs
-     Net debCom_inst/sysclk_c_enable_17: 3 loads, 3 LSLICEs
-     Net debCom_inst/sysclk_c_enable_96: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_138: 5 loads, 5 LSLICEs
-     Net debCom_inst/sysclk_c_enable_10: 4 loads, 4 LSLICEs
-     Net debCom_inst/sysclk_c_enable_8: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_72: 21 loads, 21 LSLICEs
-     Net debCom_inst/sysclk_c_enable_73: 14 loads, 14 LSLICEs
-     Net debCom_inst/sysclk_c_enable_58: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_65: 1 loads, 1 LSLICEs
-     Net debCom_inst/sysclk_c_enable_111: 2 loads, 2 LSLICEs
-     Net debCom_inst/sysclk_c_enable_228: 1 loads, 1 LSLICEs
-     Net debCom_inst/sysclk_c_enable_146: 1 loads, 1 LSLICEs
-     Net debCom_inst/sysclk_c_enable_234: 1 loads, 1 LSLICEs
-     Net debCom_inst/sysclk_c_enable_238: 25 loads, 25 LSLICEs
-     Net debCom_inst/sysclk_c_enable_237: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_143: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_219: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_218: 1 loads, 1 LSLICEs
+     Net debCom_inst/sysclk_c_enable_147: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_151: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_155: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_117: 2 loads, 2 LSLICEs
+     Net debCom_inst/sysclk_c_enable_220: 1 loads, 1 LSLICEs
      Net debCom_inst/URT/UART_TX_INST/r_SM_Main_2: 6 loads, 6 LSLICEs
-     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_118: 4 loads, 4 LSLICEs
-     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_223: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_169: 2 loads, 2 LSLICEs
-     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_189: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_233: 5 loads, 5 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_179: 2 loads, 2 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_173: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_182: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_176: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_174: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_181: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_172: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_170: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_171: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_175: 1 loads, 1 LSLICEs
-   Number of local set/reset loads for net debCom_inst/n14254 merged into GSR:
-     214
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_182: 2 loads, 2 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_108: 4 loads, 4 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_212: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/sysclk_c_enable_196: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_187: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_183: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_193: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_191: 2 loads, 2 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_213: 5 loads, 5 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_185: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_189: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_184: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_186: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_188: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/sysclk_c_enable_195: 1 loads, 1 LSLICEs
+   Number of local set/reset loads for net debCom_inst/n14975 merged into GSR:
+     212
    Number of LSRs:  6
      Net debCom_inst/URT/UART_TX_INST/r_SM_Main_2: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_TX_INST/n13442: 1 loads, 1 LSLICEs
-     Net debCom_inst/URT/UART_TX_INST/n9636: 5 loads, 5 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/n13485: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_TX_INST/n10561: 5 loads, 5 LSLICEs
      Net debCom_inst/URT/UART_RX_INST/r_SM_Main_2: 2 loads, 2 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/n9629: 5 loads, 5 LSLICEs
-     Net debCom_inst/URT/UART_RX_INST/n13470: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/n14135: 1 loads, 1 LSLICEs
+     Net debCom_inst/URT/UART_RX_INST/n9732: 5 loads, 5 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net debCom_inst/cmd_1: 126 loads
-     Net debCom_inst/lns: 84 loads
+     Net debCom_inst/cmd_1: 124 loads
+     Net debCom_inst/lns: 78 loads
+     Net debCom_inst/recBuf_0_0: 66 loads
 
                                     Page 2
 
 
 
 
-Design:  top_lserial                                   Date:  12/28/23  19:46:40
+Design:  top_lserial                                   Date:  12/29/23  18:33:10
 
 Design Summary (cont)
 ---------------------
-     Net debCom_inst/cmd_0: 62 loads
-     Net debCom_inst/n15: 62 loads
-     Net debCom_inst/recBuf_0_0: 54 loads
-     Net debCom_inst/stm_0: 49 loads
-     Net debCom_inst/recBuf_0_2: 42 loads
-     Net debCom_inst/n2883: 41 loads
-     Net debCom_inst/recCte_2: 40 loads
-     Net debCom_inst/n2789: 34 loads
+     Net debCom_inst/cmd_0: 63 loads
+     Net debCom_inst/n15: 63 loads
+     Net debCom_inst/recBuf_0_2: 55 loads
+     Net debCom_inst/n2345: 51 loads
+     Net debCom_inst/stm_0: 47 loads
+     Net debCom_inst/n2496: 40 loads
+     Net debCom_inst/n14973: 36 loads
 
 
 
@@ -162,7 +161,7 @@ WARNING - map: input pad net 'master_i2c_sda' has no legal load.
 WARNING - map: input pad net 'spi_clk' has no legal load.
 WARNING - map: input pad net 'spi_miso' has no legal load.
 WARNING - map: input pad net 'spi_mosi' has no legal load.
-WARNING - map: Using local reset signal 'debCom_inst/n14254' to infer global GSR
+WARNING - map: Using local reset signal 'debCom_inst/n14975' to infer global GSR
      net.
 WARNING - map: IO buffer missing for top level port pb[1:0](1)...logic will be
      discarded.
@@ -186,31 +185,23 @@ IO (PIO) Attributes
 | IO Name             | Direction | Levelmode | IO         |
 |                     |           |  IO_TYPE  | Register   |
 +---------------------+-----------+-----------+------------+
-| led[4]              | OUTPUT    | LVCMOS33  |            |
+| sw[3]               | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| usb_uart_rx         | INPUT     | LVCMOS33  |            |
+| led[5]              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
-| sw[0]               | INPUT     | LVCMOS33  |            |
+| sysclk              | INPUT     | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
+| usb_uart_tx         | OUTPUT    | LVTTL33   |            |
 
                                     Page 3
 
 
 
 
-Design:  top_lserial                                   Date:  12/28/23  19:46:40
+Design:  top_lserial                                   Date:  12/29/23  18:33:10
 
 IO (PIO) Attributes (cont)
 --------------------------
-| sw[1]               | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| sw[2]               | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| sw[3]               | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| sysclk              | INPUT     | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| usb_uart_tx         | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | master_i2c_scl      | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
@@ -218,13 +209,21 @@ IO (PIO) Attributes (cont)
 +---------------------+-----------+-----------+------------+
 | led[1]              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
+| led[4]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[6]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| usb_uart_rx         | INPUT     | LVTTL33   |            |
++---------------------+-----------+-----------+------------+
+| sw[0]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[1]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| sw[2]               | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
 | led[2]              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | led[3]              | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led[5]              | OUTPUT    | LVCMOS33  |            |
-+---------------------+-----------+-----------+------------+
-| led[6]              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
 | led[7]              | OUTPUT    | LVCMOS33  |            |
 +---------------------+-----------+-----------+------------+
@@ -233,9 +232,11 @@ Removed logic
 -------------
 
 Block i2 undriven or does not drive anything - clipped.
-Signal debCom_inst/URT/UART_TX_INST/sysclk_c_enable_180 was merged into signal
+Signal debCom_inst/URT/UART_TX_INST/sysclk_c_enable_236 was merged into signal
      debCom_inst/URT/UART_TX_INST/r_SM_Main_2
-Signal n14538 undriven or does not drive anything - clipped.
+Signal debCom_inst/URT/UART_TX_INST/n14977 was merged into signal
+     debCom_inst/r_SM_Main_2_N_1704_0
+Signal n15302 undriven or does not drive anything - clipped.
 Signal VCC_net undriven or does not drive anything - clipped.
 Signal debCom_inst/URT/UART_RX_INST/r_Clock_Count_3545_add_4_9/S1 undriven or
      does not drive anything - clipped.
@@ -253,21 +254,22 @@ Signal debCom_inst/URT/UART_TX_INST/r_Clock_Count_3543_add_4_9/S1 undriven or
      does not drive anything - clipped.
 Signal debCom_inst/URT/UART_TX_INST/r_Clock_Count_3543_add_4_9/CO undriven or
      does not drive anything - clipped.
-Signal debCom_inst/add_2697_2/S0 undriven or does not drive anything - clipped.
-Signal debCom_inst/add_2697_2/CI undriven or does not drive anything - clipped.
-Signal debCom_inst/add_2697_8/CO undriven or does not drive anything - clipped.
-Block debCom_inst/URT/UART_TX_INST/i1_1_lut_rep_203 was optimized away.
-Block m0_lut was optimized away.
+Signal debCom_inst/add_2707_8/CO undriven or does not drive anything - clipped.
+Signal debCom_inst/add_2707_2/S0 undriven or does not drive anything - clipped.
+Signal debCom_inst/add_2707_2/CI undriven or does not drive anything - clipped.
+Block debCom_inst/URT/UART_TX_INST/i2_1_lut_rep_197 was optimized away.
 
                                     Page 4
 
 
 
 
-Design:  top_lserial                                   Date:  12/28/23  19:46:40
+Design:  top_lserial                                   Date:  12/29/23  18:33:10
 
 Removed logic (cont)
 --------------------
+Block debCom_inst/URT/UART_TX_INST/i23_4_lut_else_4_lut was optimized away.
+Block m0_lut was optimized away.
 
      
 
@@ -275,9 +277,9 @@ GSR Usage
 ---------
 
 GSR Component:
-   The local reset signal 'debCom_inst/n14254' of the design has been inferred
+   The local reset signal 'debCom_inst/n14975' of the design has been inferred
         as Global Set Reset (GSR). The reset signal used for GSR control is
-        'debCom_inst/n14254'.
+        'debCom_inst/n14975'.
         
 
      GSR Property:
@@ -291,10 +293,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 62 MB
+   Peak Memory Usage: 63 MB
         
-
-
 
 
 

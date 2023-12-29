@@ -1,0 +1,7 @@
+dev=/dev/ttyUSB1  # device
+parity=odd        # None, odd or even
+baud=115200       # baudrate
+bitnum=8          # bitnumber 6,7,8
+stopbit=0         # stop bits 0,1,2
+flow=xon         # Flow confif: none/xonxoff/rtscts/dsrdtr
+echo=off          # echo on/off
